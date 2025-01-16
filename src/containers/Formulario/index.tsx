@@ -42,7 +42,7 @@ const Formulario = () => {
           value={nome}
           onChange={(evento) => setNome(evento.target.value)}
           type="text"
-          placeholder="Nome"
+          placeholder="Nome completo"
         />
         <Campo
           value={numero}
