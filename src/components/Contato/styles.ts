@@ -19,7 +19,7 @@ function retornaCorDeFundo(props: TagProps): string {
       return variaveis.vermelho
   } else {
     if (props.status === enums.Status.FAVORITOS) return variaveis.amarelo
-    if (props.status === enums.Status.NORMAL) return variaveis.amarelo2
+    if (props.status === enums.Status.NORMAL) return variaveis.verdeClaro
   }
   return '#ccc'
 }
